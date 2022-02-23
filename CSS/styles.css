@@ -429,7 +429,7 @@ body {
     height: 32px;
     left: 699.37px;
     top: 14.27px;
-
+    border-style: none;
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
@@ -445,6 +445,7 @@ body {
     justify-content: center;
     align-items: center;
     padding: 7px 20px;
+    border-style: none;
     color: #FFFFFF;
     position: absolute;
     width: 106.16px;
@@ -474,16 +475,10 @@ body {
     /* font-weight: bold; */
     font-size: 14px;
     line-height: 18px;
-    /* or 129% */
-    /* 
-    display: flex;
-    align-items: center; */
     letter-spacing: 0.2px;
 
     color: #000000;
 }
-
-h5 {}
 
 .warning {
     position: absolute;
