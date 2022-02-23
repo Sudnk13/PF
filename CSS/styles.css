@@ -254,6 +254,21 @@ body {
     border-radius: 7px;
 }
 
+.p1 {
+    position: absolute;
+    width: 122px;
+    height: 17px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2px;
+    color: #000000;
+}
+
 .star1 {
     position: absolute;
     width: 6.24px;
@@ -426,7 +441,7 @@ body {
     height: 32px;
     left: 699.37px;
     top: 14.27px;
-
+    border-style: none;
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
@@ -442,6 +457,7 @@ body {
     justify-content: center;
     align-items: center;
     padding: 7px 20px;
+    border-style: none;
     color: #FFFFFF;
     position: absolute;
     width: 106.16px;
