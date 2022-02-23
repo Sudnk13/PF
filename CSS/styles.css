@@ -1,26 +1,7 @@
 body {
     width: 1440px;
-    height: 693px;
+    height: 833px;
     background: #FFFFFF;
-}
-
-.pf {
-    position: absolute;
-    width: 191px;
-    height: 18px;
-    left: 625px;
-    top: 34px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 18px;
-    /* identical to box height, or 75% */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    letter-spacing: 0.2px;
-    color: #000000;
 }
 
 .dashboard {
@@ -29,8 +10,9 @@ body {
     height: 42px;
     top: 69px;
     /* right: 220px; */
-    bottom: 582px;
-    left: 200px;
+    bottom: 727px;
+    left: 220px;
+    right: 220px;
     background: #F5FCFF;
     border-radius: 7px;
     display: flex;
@@ -43,14 +25,16 @@ body {
     width: 82px;
     height: 18px;
     left: 11px;
-    top: -13;
-    right: 907px;
-    font-family: Roboto !important;
+    top: -13px;
+    font-family: Roboto;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 900;
     font-size: 14px;
     line-height: 18px;
     /* identical to box height, or 129% */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2px;
     color: #3C64B1;
 }
 
@@ -62,7 +46,7 @@ body {
     top: -12px;
     font-family: Roboto !important;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 900;
     font-size: 14px;
     line-height: 18px;
     /* identical to box height, or 129% */
@@ -74,174 +58,216 @@ body {
 .container1 {
     position: absolute;
     width: 1000px;
-    height: 546px;
-    top: 130px;
-    right: 220px;
-    bottom: 17px;
-    left: 200px;
+    height: 644px;
+    left: 220px;
+    right: 220;
+    top: 120px;
+    bottom: 41px;
     /* Light / White */
     background: #FFFFFF;
     /* Light / Divider */
     border: 1px solid #E2E5E6;
     border-radius: 8px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
 }
 
-.benif {
+.approve {
     position: absolute;
-    left: 6.25%;
-    right: 75.65%;
-    top: 4.02%;
-    bottom: 89.1%;
-
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 18px;
-    /* or 100% */
-
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.2px;
-}
-
-.group1 {
-    position: absolute;
-    width: 165.33px;
-    height: 102.04px;
-    left: 173px;
-    top: 56px;
-}
-
-.img1 {
-    Width: 20.11px;
-    Height: 19.75px;
-    position: absolute;
-    left: 385.93px;
-    right: 12.5%;
-    top: 95.96px;
-}
-
-.img2 {
-    Width: 20.11px;
-    Height: 19.75px;
-    position: absolute;
-    left: 637.35px;
-    right: 12.5%;
-    top: 97.42px;
-}
-
-.group2 {
-    position: absolute;
-    width: 180.97px;
-    height: 99.84px;
-    left: 412px;
-    top: 56.91px;
-}
-
-.group3 {
-    position: absolute;
-    width: 154.16px;
-    height: 95.45px;
-    left: 685px;
-    top: 59.63px;
-}
-
-h3 {
-    position: absolute;
-    width: 275px;
+    width: 290px;
     height: 18px;
-    left: 359px;
-    top: 257px;
+    left: 355px;
+    top: 47px;
 
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
     line-height: 18px;
-    /* identical to box height, or 75% */
-
     display: flex;
     align-items: center;
     letter-spacing: 0.2px;
-
-    color: #1821FF;
 }
 
-.group4 {
+.details {
     position: absolute;
-    width: 43px;
-    height: 43px;
-    left: 138px;
-    top: 317px;
+    width: 909px;
+    height: 167px;
+    left: 46px;
+    top: 104px;
+    background: rgba(244, 245, 249, 0.78);
+    border: 1px solid #C2C9CB;
+    border-radius: 7px;
 }
 
-.para1 {
+.info1 {
     position: absolute;
-    width: 202px;
-    height: 85px;
-    left: 64px;
-    top: 382px;
-    right: 740px;
-    bottom: 79px;
+    width: 187px;
+    height: 18px;
+    left: 28px;
+    top: 32px;
+
     font-family: Roboto;
     font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
+    font-weight: 900;
+    font-size: 18px;
     line-height: 18px;
-    text-align: left;
-    /* or 129% */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2px;
+    color: #000000;
+
+}
+
+.info2 {
+    position: absolute;
+    width: 160px;
+    height: 18px;
+    left: 540px;
+    top: 33px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
     letter-spacing: 0.2px;
     color: #000000;
 }
 
-.group5 {
+.info3 {
     position: absolute;
-    width: 43px;
-    height: 43px;
-    left: 397px;
-    top: 317px;
-}
+    width: 161px;
+    height: 18px;
+    left: 28px;
+    top: 73px;
 
-.para2 {
-    position: absolute;
-    width: 202px;
-    height: 85px;
-    left: 325px;
-    top: 374px;
     font-family: Roboto;
     font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
+    font-weight: 900;
+    font-size: 18px;
     line-height: 18px;
-    /* or 129% */
-    letter-spacing: 0.2px;
-    color: #000000;
     display: flex;
     align-items: center;
-    justify-content: center;
+    letter-spacing: 0.2px;
+    color: #000000;
 }
 
-.para3 {
+.info4 {
     position: absolute;
-    width: 346.04px;
-    height: 58px;
-    left: 596.96px;
-    top: 388px;
+    width: 153px;
+    height: 18px;
+    left: 540px;
+    top: 73px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2px;
+    color: #000000;
+}
+
+.info5 {
+    position: absolute;
+    width: 182px;
+    height: 18px;
+    left: 28px;
+    top: 107px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2px;
+    color: #000000;
+}
+
+.info6 {
+    position: absolute;
+    width: 202px;
+    height: 18px;
+    left: 540px;
+    top: 107px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2px;
+    color: #000000;
+}
+
+.agreement {
+    position: absolute;
+    width: 909px;
+    height: 204px;
+    left: 46px;
+    top: 287px;
+    background: rgba(249, 251, 255, 0.78);
+    border: 1px solid #C2C9CB;
+    border-radius: 7px;
+}
+
+#pdf {
+    position: absolute;
+    width: 29.28px;
+    height: 32px;
+    left: 831px;
+    top: 19px;
+}
+
+#word {
+    position: absolute;
+    width: 29.28px;
+    height: 32px;
+    left: 864.85px;
+    top: 19px;
+}
+
+.loan {
+    position: absolute;
+    width: 182px;
+    height: 18px;
+    left: 21px;
+    top: 43px;
+
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 18px;
     line-height: 18px;
-    /* or 129% */
     display: flex;
     align-items: center;
     letter-spacing: 0.2px;
-    color: #A71E1E;
+    color: #000000;
+}
+
+.para {
+    position: absolute;
+    width: 828px;
+    height: 96px;
+    left: 58px;
+    top: 83px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2px;
+    color: #000000;
 }
 
 .btn {
@@ -250,16 +276,27 @@ h3 {
     justify-content: center;
     align-items: center;
     padding: 11px 22px;
-
+    border-style: none;
     position: absolute;
-    width: 230px;
-    height: 35px;
-    left: 748px;
-    top: 491px;
-
+    width: 328px;
+    height: 40px;
+    left: 632px;
+    top: 525px;
     background: #3C64B1;
-    ;
     border-radius: 7px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+.warning {
+    position: absolute;
+    top: 35.19px;
+    left: 1196.19px;
 }
 
 #text {
@@ -269,11 +306,9 @@ h3 {
     font-size: 14px;
     line-height: 18px;
     /* identical to box height, or 129% */
-
     display: flex;
     align-items: center;
     letter-spacing: 0.2px;
-
     color: #FFFFFF;
 }
 
@@ -282,5 +317,5 @@ h3 {
     width: 81px;
     height: 81px;
     left: 1234px;
-    top: 520px;
+    top: 432px;
 }
