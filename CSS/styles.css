@@ -214,13 +214,12 @@ h3 {
     border-radius: 7px;
 }
 
-.form-upload {
+#form-upload {
     position: absolute;
     width: 122.5px;
     height: 18px;
-    left: 400.3px;
-    top: 26px;
-
+    left: 401.3px;
+    top: 13px;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -232,7 +231,7 @@ h3 {
     color: #000000;
 }
 
-.upload {
+#file {
     position: absolute;
     width: 332.9px;
     height: 40px;
@@ -242,7 +241,10 @@ h3 {
     border: 1px solid #8FAAEE;
     box-sizing: border-box;
     border-radius: 7px;
+    display: flex;
+    align-items: center;
 }
+
 
 #plus-circle {
     position: absolute;
@@ -281,11 +283,11 @@ h6 {
     position: absolute;
     width: 328px;
     height: 40px;
-    left: 659px;
-    top: 505px;
+    left: 627px;
+    top: 492px;
     background: #3C64B1;
     border-radius: 7px;
-    
+    border-style: none;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
