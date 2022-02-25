@@ -154,13 +154,18 @@ h1 {
     display: flex;
     align-items: center;
     letter-spacing: 0.2px;
-    text-decoration-line: underline;
+    text-decoration: underline;
     /* color: #3C64B1; */
     /* Inside auto layout */
     flex: none;
     order: 3;
     flex-grow: 0;
     margin: 27px 0px;
+}
+
+#a1 {
+    text-decoration: none;
+    color: #3C64B1;
 }
 
 #text5 {
@@ -208,6 +213,11 @@ h1 {
     flex-grow: 0;
     margin: 27px 0px;
     text-decoration: none;
+}
+
+#a2 {
+    text-decoration: none;
+    color: #3C64B1;
 }
 
 .para1 {
